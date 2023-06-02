@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MaxWidth="800" MinWidth="800" MaxHeight="700" MinHeight="700" Height="700" Width="800" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid>
-
+        <Label Margin="269,72,233,538" FontWeight="Bold" FontFamily="Bahnschrift" FontSize="36">АВТОРИЗАЦИЯ</Label>
+        <TextBox  HorizontalAlignment="Center" Name="LoginBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="50" Margin="0,245,0,0" FontFamily="Bahnschrift" FontSize="22" TextAlignment="Center"/>
+        <PasswordBox HorizontalAlignment="Center" Name="PasswordBox" VerticalAlignment="Top" Width="334" Height="50" Margin="0,300,0,0" FontFamily="Bahnschrift" FontSize="22"/>
+        <Button Name="Vxod" Content="ВОЙТИ" HorizontalAlignment="Center" Height="42" Margin="0,465,0,0" VerticalAlignment="Top" Width="156" FontSize="20" FontWeight="Bold" FontFamily="Bahnschrift" Click="Vxod_Click"/>
+        <Button Name="Gost" Content="ГОСТЬ" HorizontalAlignment="Center" Height="42" Margin="0,542,0,0" VerticalAlignment="Top" Width="156" FontSize="20" FontFamily="Bahnschrift" FontWeight="Bold" Click="Gost_Click"/>
+        <Button x:Name="Exit" Content="X" HorizontalAlignment="Left" Height="26" Margin="675,10,0,0" VerticalAlignment="Top" Width="82" FontSize="20" FontWeight="Bold" FontFamily="Bahnschrift" Click="Exit_Click"/>
     </Grid>
 </Window>

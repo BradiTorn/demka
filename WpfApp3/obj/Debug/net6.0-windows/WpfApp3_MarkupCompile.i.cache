@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\islam\source\repos\WpfApp3\WpfApp3\App.xaml
-11407045341
+4-560920508
 
-6-1162825183
+9-716192189
 195-1030221739
-MainWindow.xaml;
+Admin.xaml;Client.xaml;MainWindow.xaml;Sotrudnik.xaml;
 
 True
 
